@@ -1,0 +1,489 @@
+/*---- General styling ----*/
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  margin-top: 120px;
+
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*-----NAVIGATION------*/
+a {
+  color: #070707;
+  text-decoration: none;
+}
+
+.rainydays--logo {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+.shopping-bag {
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 50px;
+}
+
+nav{
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: black;
+  background: #edf1ec;
+  
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  height: 70px;
+}
+
+.menu-area{
+  text-align: center;
+}
+.menu-area ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.current {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+/*-----HOMEPAGE----*/
+.illustration-image,
+.illustration-resistance {
+  max-width: 300px;
+  max-height: 300px;
+
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 3px 2px #dce2da;
+}
+
+.homepage-main-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.homepage-text {
+  max-width: 700px;
+}
+
+.homepage-images {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.selling-points {
+  font-size: 26px;
+  margin-bottom: 60px;
+}
+
+.homepage-main-paragraph {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.homepage-second-paragraph {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.cta-assortment {
+  padding: 20px 50px 20px 50px;
+  background-color: #114451;
+  color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  text-transform: uppercase;
+}
+
+.cta-assortment:hover {
+  background-color: #1c5765;
+  text-decoration: underline;
+}
+
+
+.rainydays-logo-1 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/*----PRODUCTS----*/
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.product h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1c5765;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.cta:hover {
+  background-color: #1c5765;
+}
+
+
+/*----- Jacket Details -----*/
+
+.product-container-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 350px;
+	margin: auto;
+	text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta-btn-details {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 20px;
+	background-color: #1c5765;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.cta-btn-details:hover {
+	background-color: #29768a;
+}
+
+
+/*----JACKET PAGE----*/
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container img {
+  max-width: 100%;
+  height: auto;
+}
+.cta-button-pp {
+  padding: 8px 16px;
+  background-color: #1c5765;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 18px;
+}
+.cta-button-pp:hover {
+  background-color: #267285;
+}
+
+/*----CONTACT----*/
+.h1-contact {
+  text-align: center;
+}
+
+.contact-container {
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #e9ede7;
+}
+
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form .form-subject {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form button {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #052932;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #1c5765;
+}
+
+.rainydays-contact {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+}
+
+/*-----ABOUT----*/
+.red-jacket-l,
+.red-jacket-m,
+.rainydays-logo {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.container-about-images {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.about--text {
+  max-width: 800px;
+}
+
+.content-about {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 45px;
+
+  margin-bottom: 70px;
+}
+
+.instagram,
+.facebook {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 0px 10px 50px 0px;
+}
+
+/*----CHECKOUT----*/
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form input[type="tel"],
+.checkout-form input[type="month"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.checkout-form button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.checkout-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+/*-----FOOTER------*/
+footer {
+  background-color: #edf1ec;
+  color: #052932;
+
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+
+.rainydays-icon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.adjectives-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.adjectives {
+  display: flex;
+  align-items: center;
+
+  font-size: 26px;
+  margin-top: 0px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.footer-content,
+.creator {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+footer p {
+  text-decoration: underline;
+}
+
+/*----MEDIA QUERIES----*/
+
+@media (max-width: 1300px) {
+ 
+  /*----About----*/
+  .container-about-images{
+    display:flex;
+    flex-direction: column;
+
+  }
+  .about-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1100px){
+.container-product {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.homepage-main-container{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+}
+
+@media (max-width: 700px) {
+
+  /*----About----*/
+  .about-text {
+    font-size: 21px;
+  }
+
+}
+
+@media (max-width: 800px) {
+    
+  .menu-area{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 12px; 
+  }
+
+  .shopping-bag {
+      max-height: 30px;
+      max-width: 30px;
+      margin-left: 15px;
+  }
+  .rainydays--logo {
+      max-height: 25px;
+      max-width: 50px;
+  }
+
+  .adjectives-container{
+    display: none;
+  }
+}
